@@ -9,6 +9,9 @@ The tools included:
 6. Ngspice: for spice simulation.
 7. Qflow: all the above tools are appended in this GUI.
 
-The main idea of the workshop was that each day everyone who had signed up got indiviual assingments which included a MCQ test, videos on the concepts of the MCQ and lab instruction. 
+The main idea of the workshop was that each day everyone who had signed up got indiviual assingments which included a MCQ test, videos on the concepts of the MCQ and lab instruction and the MQC test also included questions based on lab.
+
+![1](https://user-images.githubusercontent.com/80053020/110277371-1f163500-7ffb-11eb-99dc-4e6c7ff4f5ca.png)
+
 
 
