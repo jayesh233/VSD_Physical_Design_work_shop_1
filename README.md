@@ -22,7 +22,7 @@ The 1st day lab consisted:
 ![yosys](https://user-images.githubusercontent.com/80053020/110278012-74067b00-7ffc-11eb-87a9-fdbf4dcdcdcd.png)
 
 
-The 2nd day consisted:
+# The 2nd day consisted:
 1. Studing inverter and its transfer characteristics.
 2. Simulation on ngspice of the spice model of the inverter.
 3. Generating the sysnthesis file for the SOC.
