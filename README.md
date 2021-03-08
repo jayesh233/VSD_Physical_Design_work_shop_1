@@ -1,5 +1,5 @@
 # VSD_Physical_Design_workshop_1
-It was a 5 day workshop, which was based on VLSI back end flow, where we worked on RTL to GDS flow with open source EDA tools and 180nm (osu_018 library).
+It was a 5 day workshop, which was based on VLSI back end flow, where we worked on RTL to GDS flow with open source EDA tools and 180nm technology library (osu_018 library).
 The tools included:
 1. Yosys: for Sythesis (.v) generation.
 2. Graywolf: for Floorplaning, Placement and CTS (clock tree synthesis).
