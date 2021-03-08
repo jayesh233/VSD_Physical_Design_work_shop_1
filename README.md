@@ -76,7 +76,7 @@ The cmos transistor circuit along with its Euler path for the pmos and nmos part
 
 A prelayout Spcie netlist for the 12 transitor cmos circuit.
 
-![upper_treshhold](https://user-images.githubusercontent.com/80053020/110308957-c52b6480-8026-11eb-94a7-ddc1150447be.png)
+![spice_prelayout](https://user-images.githubusercontent.com/80053020/110310339-6f57bc00-8028-11eb-9c31-0702f1585b78.png)
 
 The prelayout simulation.
 
