@@ -107,6 +107,7 @@ The std cell library for osu 180nm used for the RISC-V SOC.
 The routing stage for the RISC-V SOC.
 
 ![routin_rep](https://user-images.githubusercontent.com/80053020/110316694-13456580-8031-11eb-95cd-106241b88d43.png)
+Routing report for the SOC.
 
 ![STA_SLACK](https://user-images.githubusercontent.com/80053020/110351771-2e2ccf80-805b-11eb-88b1-2ca97a1a604b.png)
 
@@ -118,7 +119,7 @@ Hold timings for the different data paths in the SOC without clock network delay
 
 ![propageted](https://user-images.githubusercontent.com/80053020/110352114-85cb3b00-805b-11eb-8f18-ed3e180063b1.png)
 
-The setup slack with the clock network delay propagted
+The setup slack with the clock network delay propagted.
 
 ![sta_whole](https://user-images.githubusercontent.com/80053020/110352847-697bce00-805c-11eb-8bc0-16b986b463a0.png)
 
