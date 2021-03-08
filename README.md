@@ -31,7 +31,7 @@ The main idea of the workshop was that each day everyone who had signed up got i
 
 ![SPICE_1](https://user-images.githubusercontent.com/80053020/110279817-bda49500-7fff-11eb-8fc5-7774c10e4d19.png)
 
-The spice file consists of 4 main sections which the model/component defination, stimulus, simulation command and library model assigning.
+The spice file consists of 4 main sections which are the model/component defination, stimulus, simulation command and library model assigning.
 The components M1 reprensents Pmos with its width as 0.5u and leangth as 0.25u and the connection for its drain, gate, source, substrate respectively (out, in, Vdd, Vdd) followed by the technology file name (pmos).
 The components M2 reprensents Nmos with its width as 0.375u and leangth as 0.25u and the connection for its drain, gate, source, substrate respectively (out, in, 0, 0).
 The capacitor load connected between nodes out and 0 (gnd) with a value=10fF (femto farads). The Vdd and Vin connected between the respective nodes.
