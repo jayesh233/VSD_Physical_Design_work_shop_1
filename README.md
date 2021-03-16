@@ -49,7 +49,7 @@ Synthesis report of the RISC-V SOC, we can see the number of the components used
 
 ![pre_place](https://user-images.githubusercontent.com/80053020/110280869-94850400-8001-11eb-99df-82eda257d92f.png)
 
-The starting view at the time of placement.
+The starting view at the time of placement. The placement stage is the stage after the floorplanning (where all macro blocks, in/out pads, power planning is done) stage, where all the logic cells are placed in the core region with the aim that all the cells should have an unique position in the core. 
 
 ![place_rep](https://user-images.githubusercontent.com/80053020/110280668-33f5c700-8001-11eb-94b9-a7d72da318a9.png)
 
