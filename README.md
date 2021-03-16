@@ -63,11 +63,11 @@ The placement log file.
 
 ![rise_delay](https://user-images.githubusercontent.com/80053020/110308423-18e97e00-8026-11eb-8a8e-dc67cf872f81.png)
 
-Simutlation of inverter circuit with 10fF load capacitor.
+Simutlation of inverter circuit with 10fF load capacitor. when input is high (blue) the output (red) is low and vice versa. The ouput is little curved and not exact shape as input, this is due to RC components, The output is due to charging and discharging of the load capacitor. When the capacitor is charged or discharged completely the output than settles at that particular level and no longer a curve shape.
 
 ![rise_delay_20fF](https://user-images.githubusercontent.com/80053020/110308513-37e81000-8026-11eb-8e00-309288dc1154.png)
 
-Simulation of the inverter circuit with the load capacitor as 20fF. We can see that the charging of the capacitor takes a longer time from 0v to Vdd.
+Simulation of the inverter circuit with the load capacitor as 20fF. We can see that the charging and discharging of the capacitor takes a longer time from 0v to Vdd and Vdd to 0 as compared to the 10fF load. This is bacause as the capacitance increases the settling time (tau) increases. where Tau=R*C.
 
 ![100](https://user-images.githubusercontent.com/80053020/110307828-60bbd580-8025-11eb-9514-c1f10a5d1e46.png)
 
