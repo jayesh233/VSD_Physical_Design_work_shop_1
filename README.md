@@ -71,7 +71,7 @@ Simulation of the inverter circuit with the load capacitor as 20fF. We can see t
 
 ![100](https://user-images.githubusercontent.com/80053020/110307828-60bbd580-8025-11eb-9514-c1f10a5d1e46.png)
 
-The cmos transistor circuit along with its Euler path for the pmos and nmos part respectively. 
+The cmos transistor circuit along with its Euler path for the pmos and nmos part respectively. The Pmos is dual network of the Nmos network or vice versa. Dual network is a property where the series component is represented as parallel components and parallel components as series. The Euler path is used for reduncing wire congestion of the circuit. 
 
 ![spice_prelayout_code](https://user-images.githubusercontent.com/80053020/110307202-a88e2d00-8024-11eb-8b3f-cae3005e85d4.png)
 
