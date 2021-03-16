@@ -71,11 +71,11 @@ Simulation of the inverter circuit with the load capacitor as 20fF. We can see t
 
 ![100](https://user-images.githubusercontent.com/80053020/110307828-60bbd580-8025-11eb-9514-c1f10a5d1e46.png)
 
-The cmos transistor circuit along with its Euler path for the pmos and nmos part respectively. The Pmos is dual network of the Nmos network or vice versa. Dual network is a property where the series component is represented as parallel components and parallel components as series. The Euler path is used for reduncing wire congestion of the circuit. 
+The cmos transistor circuit along with its Euler path for the pmos and nmos part respectively. The Pmos is dual network of the Nmos network or vice versa. Dual network is a property where the series component is represented as parallel components and parallel components as series this is the duelity property in logic gates (OR and AND). The Euler path is used for reduncing wire congestion of the circuit. 
 
 ![spice_prelayout_code](https://user-images.githubusercontent.com/80053020/110307202-a88e2d00-8024-11eb-8b3f-cae3005e85d4.png)
 
-A prelayout Spcie netlist for the 12 transitor cmos circuit.
+A prelayout Spcie netlist for the 12 transitor cmos circuit. The transistor models from M1 to M12 represents each transistors, the next four parameters are the drain, gate, source, body terminal connection nodes. The next parameter is the type of mos either pmos or nmos and its width (W) and length (L).
 
 ![spice_prelayout](https://user-images.githubusercontent.com/80053020/110310339-6f57bc00-8028-11eb-9c31-0702f1585b78.png)
 
@@ -83,7 +83,7 @@ The prelayout simulation.
 
 ![spice_postlayout](https://user-images.githubusercontent.com/80053020/110309114-f146e580-8026-11eb-855e-534ee9925f54.png)
 
-The Simulation after layout with inclusion of the extracted parasitics. We can a clear difference wrt the above output waveform.
+The Simulation after layout with inclusion of the extracted parasitics which are the RC component values. We can a clear difference wrt the above output waveform.
 
 ![magic_1](https://user-images.githubusercontent.com/80053020/110309616-95309100-8027-11eb-932a-b25ff184ea32.png)
 
@@ -104,18 +104,18 @@ The std cell library for osu 180nm used for the RISC-V SOC.
 
 ![routin](https://user-images.githubusercontent.com/80053020/110316622-0294ef80-8031-11eb-9e7f-e27583dde851.png)
 
-The routing stage for the RISC-V SOC.
+The routing stage for the RISC-V SOC. The routing process is connecting all the circuit components with their repective concection, this stage comes after the CTS (clock tree synthesis) stage where clock is supplied to all the components depending on it.
 
 ![routin_rep](https://user-images.githubusercontent.com/80053020/110316694-13456580-8031-11eb-95cd-106241b88d43.png)
 Routing report for the SOC.
 
 ![STA_SLACK](https://user-images.githubusercontent.com/80053020/110351771-2e2ccf80-805b-11eb-88b1-2ca97a1a604b.png)
 
-The setup slack for the SOC without clock network delay propagated.
+The setup slack for the SOC without clock network delay propagated. The Setup time is the minimum time before the active clock edge the data should be stable. The setup slack is the defference between the required time and the actual arrival time (required - arrival).
 
 ![sta_hold_whole](https://user-images.githubusercontent.com/80053020/110352769-510bb380-805c-11eb-818c-a8839028b77c.png)
 
-Hold timings for the different data paths in the SOC without clock network delay propagated.
+Hold timings for the different data paths in the SOC without clock network delay propagated. The hold time is the minimum time after the active clock edge the data should be stable. The Hold slack is the difference between the arrival time and the required time (arrival - required).
 
 ![propageted](https://user-images.githubusercontent.com/80053020/110352114-85cb3b00-805b-11eb-8f18-ed3e180063b1.png)
 
