@@ -111,11 +111,11 @@ Routing report for the SOC.
 
 ![STA_SLACK](https://user-images.githubusercontent.com/80053020/110351771-2e2ccf80-805b-11eb-88b1-2ca97a1a604b.png)
 
-The setup slack for the SOC without clock network delay propagated. The Setup time is the minimum time before the active clock edge the data should be stable. The setup slack is the defference between the required time and the actual arrival time (required - arrival).
+The setup slack for the SOC without clock network delay propagated. The Setup time is the minimum time before the active clock edge the data should be stable. The setup slack is the defference between the required time and the actual arrival time (required - arrival). The setup timing is checked on the next clock edge. The setup timing is reponsible for operating frequency of the circuit.
 
 ![sta_hold_whole](https://user-images.githubusercontent.com/80053020/110352769-510bb380-805c-11eb-818c-a8839028b77c.png)
 
-Hold timings for the different data paths in the SOC without clock network delay propagated. The hold time is the minimum time after the active clock edge the data should be stable. The Hold slack is the difference between the arrival time and the required time (arrival - required).
+Hold timings for the different data paths in the SOC without clock network delay propagated. The hold time is the minimum time after the active clock edge the data should be stable. The Hold slack is the difference between the arrival time and the required time (arrival - required). The hold timing is checked on the same clock edge. Hold timing is responsible for data corruption.
 
 ![propageted](https://user-images.githubusercontent.com/80053020/110352114-85cb3b00-805b-11eb-8f18-ed3e180063b1.png)
 
