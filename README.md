@@ -41,11 +41,11 @@ The dc simulation was carried out with the dc voltage going from 0-2.5 in steps 
 
 ![spice_simu](https://user-images.githubusercontent.com/80053020/110279332-f3954980-7ffe-11eb-8409-d5b645b85dda.png)
 
-The transfer characteristics of the cmos inverter with the switching threshold where the Vin=Vdd.
+The transfer characteristics of the cmos inverter with the switching threshold where the Vin=Vdd. So when the input is zero the nmos is off and the pmos is on, the output is connected to the Vdd through pmos and as a result output is high. When the input is high the pmos is off and the nmos is on so the ouput is connected to gnd through the nmos and hence output is low. The curve in the output is due to RC components where the pmos and nmos represents R and the output load represents C.
 
 ![SYNT_rep](https://user-images.githubusercontent.com/80053020/110279552-44a53d80-7fff-11eb-9613-270e14d87762.png)
 
-Synthesis report of the RISC-V SOC.
+Synthesis report of the RISC-V SOC, we can see the number of the components used in the SOC and the wires used. The Synthesis (.v) file consists of all the components (sequential and combinational) and their respective connections.
 
 ![pre_place](https://user-images.githubusercontent.com/80053020/110280869-94850400-8001-11eb-99df-82eda257d92f.png)
 
